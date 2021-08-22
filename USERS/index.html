@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/app.css">
+    <title>Users</title>
+</head>
+
+<body>
+    <nav>
+        <ul class="menu-items">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="users.html">List Users</a></li>
+            <li><a href="register.html">Register User</a></li>
+        </ul>
+        <div class="menu-info">
+            <label> 3 users</label>
+        </div>
+    </nav>
+    <h1>Login to our System</h1>
+
+    
+
+    <div class="login-container">
+        <h3>Member login</h3>
+        <div id="alertError" class="alert-error hide">
+            <p>Invalid credentials please verify</p>
+        </div>
+        <input type="text" id="txtEmail" placeholder="email">
+        <input type="password" id="txtPassword" placeholder="password">
+
+        <button id="btnLogin">Log in</button>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="scripts/storeManager.js"></script>
+    <script src="scripts//login.js"></script>
+
+</body>
+
+</html>
